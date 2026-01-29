@@ -1,0 +1,19 @@
+name: publish site
+on:
+  push:
+    branches:
+      - main  # 기본 브랜치 이름이 master라면 master로 수정하세요.
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material  # 가장 많이 쓰이는 material 테마 포함
+      - run: mkdocs gh-deploy --force
