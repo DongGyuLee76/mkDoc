@@ -6,3 +6,11 @@ theme:
 markdown_extensions:
   - md_in_html
   - attr_list
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - 사용 방법: 01_PyCom.md
+      - 안내문서 메인: 02_user_guide.md
+      - 설치 가이드: 03_install.md
+
