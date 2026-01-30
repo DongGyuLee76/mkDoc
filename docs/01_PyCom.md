@@ -6,7 +6,7 @@
 ![대체 텍스트](image/01/intro.gif)
 ![대체 텍스트](image/01/abc.jpg)
 
-<img src="/mkDOc/image/01/abc.jpg" width="500" height="300" alt="이미지 설명">
+<img src="docs/image/01/abc.jpg" width="500" height="300" alt="이미지 설명">
 
 
 
