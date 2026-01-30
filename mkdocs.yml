@@ -1,4 +1,4 @@
-site_name: IT Manual2, Since:26.1.30
+site_name: IT Manual, Since:26.1.30
 
 theme:
   name: mkdocs  # 기본 테마 사용 (명시적으로 설정)

@@ -32,6 +32,6 @@ test6
 ```
 
 test7
-<img src="image/01/abc.jpg" width="500" height="300" alt="이미지 설명">
+<img src="../image/01/abc.jpg" width="500" height="300" alt="이미지 설명">
 
 
