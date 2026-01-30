@@ -57,3 +57,14 @@
 ![대체 텍스트](image/01/abc.jpg)
 
 
+---
+```markdown
+일반 텍스트와 <span style="color:red">빨간 글자</span> 예제입니다.  
+이것은 <span style="color:blue">파란 글자</span> 예제입니다.  
+이것은 <span style="color:#00aa00">초록색(#00aa00) 글자</span> 예제입니다.
+
+---
+<div style="color:#ff6600">
+이 문단 전체는 주황색(#ff6600)으로 표시됩니다.  
+여러 줄을 작성해도 동일하게 적용됩니다.
+</div>

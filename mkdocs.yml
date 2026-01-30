@@ -1,7 +1,8 @@
 site_name: IT Manual, Since:26.1.30
 
 theme:
-  name: mkdocs  # 기본 테마 사용 (명시적으로 설정)
+#  name: mkdocs  # 기본 테마 사용 (명시적으로 설정)
+  name: material  # 코드 입력
 
 markdown_extensions:
   - md_in_html
