@@ -1,1 +1,9 @@
-# 02 user
+2 test
+
+
+
+def add(a, b):
+    return a + b
+
+print(add(2, 3))
+
