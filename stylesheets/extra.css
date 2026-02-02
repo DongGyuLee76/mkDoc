@@ -1,0 +1,13 @@
+/* Material 테마 코드블럭(라이트/다크 공통) 배경/글자색 약간 조정 */
+
+/* 코드 블럭 영역 전체 */
+.md-typeset .highlight {
+  background-color: #f5f5f5 !important;  /* 박스 배경색 */
+}
+
+/* 실제 코드(pre, code)에 적용 */
+.md-typeset .highlight pre,
+.md-typeset .highlight code {
+  background-color: transparent !important; /* 중복 배경 제거 */
+  color: #111827 !important;               /* 기본 글자색 */
+}
