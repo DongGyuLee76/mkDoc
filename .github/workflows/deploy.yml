@@ -15,5 +15,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material  # 가장 많이 쓰이는 material 테마 포함
+      - run: pip install mkdocs-material pymdown-extensions # 가장 많이 쓰이는 material 테마 포함
       - run: mkdocs gh-deploy --force

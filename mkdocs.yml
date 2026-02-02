@@ -1,20 +1,21 @@
 site_name: 지식정리 Since:26.1.30
 
 theme:
-#  name: mkdocs  # 기본 테마 사용 (명시적으로 설정)
-  name: material  # 코드 입력
+  name: material
+  features:
+    - content.code.copy
 
 markdown_extensions:
   - md_in_html
   - attr_list
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: false
   - pymdownx.superfences  
 
 nav:
   - Home: index.md
   - User Guide:
-      - 사용 방법: 01_PyCom.md
-      - 안내문서 메인: 02_user_guide.md
-      - 설치 가이드: 03_Markdown_guide.md
-      
-
+      - 테스트1 : 01_PyCom.md
+      - 테스트2 : 02_user_guide.md
+      - 마크다운 문서예: 03_Markdown_guide.md
