@@ -1,23 +1,23 @@
-/* ── Material 테마용 코드 블럭 스타일 오버라이드 ── */
+/* ── Material 테마 코드블럭 색상 강제 오버라이드 ── */
 
-/* 코드 블럭 전체 박스 배경/글자색 */
-.md-typeset .highlight,
-.md-typeset .highlight pre,
-.md-typeset .highlight code {
+/* 1) article.md-typeset 내부의 코드블럭 전체 */
+article.md-content__inner.md-typeset div.highlight,
+article.md-content__inner.md-typeset div.highlight pre,
+article.md-content__inner.md-typeset div.highlight code {
   background-color: #f5f5f5 !important;  /* 박스 배경색 */
-  color: #111827 !important;             /* 기본 글자색 */
+  color: #111827 !important;             /* 글자색 */
 }
 
-/* 줄번호(왼쪽 열) 포함한 표 구조도 같이 처리 */
-.md-typeset .highlight table,
-.md-typeset .highlight tbody,
-.md-typeset .highlight tr,
-.md-typeset .highlight td {
+/* 2) 줄번호/표 구조까지 포함해서 모두 같은 배경/색상 */
+article.md-content__inner.md-typeset div.highlight table,
+article.md-content__inner.md-typeset div.highlight tbody,
+article.md-content__inner.md-typeset div.highlight tr,
+article.md-content__inner.md-typeset div.highlight td {
   background-color: #f5f5f5 !important;
   color: #111827 !important;
 }
 
-/* 코드 안의 특정 토큰 색상 (Pygments 클래스 기준) */
-.md-typeset .highlight .n  { color: #111827 !important; } /* 일반 이름 */
-.md-typeset .highlight .s  { color: #047857 !important; } /* 문자열 */
-.md-typeset .highlight .k  { color: #1d4ed8 !important; } /* 키워드 */
+/* 3) 토큰별 색상 (원하는 경우만 사용) */
+article.md-content__inner.md-typeset div.highlight .n  { color: #111827 !important; }
+article.md-content__inner.md-typeset div.highlight .s  { color: #047857 !important; }
+article.md-content__inner.md-typeset div.highlight .k  { color: #1d4ed8 !important; }
