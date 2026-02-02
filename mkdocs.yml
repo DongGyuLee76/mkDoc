@@ -4,16 +4,24 @@ theme:
   name: material
   features:
     - content.code.copy
-
-extra_css:
-  - stylesheets/extra.css
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      # 코드 박스/배경을 밝게 보이게 하려면 여기서 선택
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 markdown_extensions:
   - md_in_html
   - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
-      linenums: false
+      linenums: true
   - pymdownx.superfences  
 
 nav:
