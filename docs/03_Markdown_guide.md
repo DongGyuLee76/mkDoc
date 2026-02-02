@@ -52,9 +52,11 @@
 ### 4-2. 이미지
 
 기본 마크다운 이미지:
-
-
 ![대체 텍스트](image/01/abc.jpg)
+
+
+경로에 대해 자세히 보기 위해서 웹페이지에서 F12를 눌려서 경로 확인필요
+<img src="../image/01/abc.jpg" width="500" height="300" alt="이미지 설명">
 
 
 ---
@@ -68,3 +70,32 @@
 이 문단 전체는 주황색(#ff6600)으로 표시됩니다.  
 여러 줄을 작성해도 동일하게 적용됩니다.
 </div>
+
+
+
+
+---
+
+## 5. 수학수식
+
+This sentence uses $\` and \`$ delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
+
+
+
+---
+
+## 6. 코드 블럭 만들기
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+### 6-1. 구문강조
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```

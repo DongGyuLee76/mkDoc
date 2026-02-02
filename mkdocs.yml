@@ -1,4 +1,4 @@
-site_name: IT Manual, Since:26.1.30
+site_name: 지식정리 Since:26.1.30
 
 theme:
 #  name: mkdocs  # 기본 테마 사용 (명시적으로 설정)
@@ -15,6 +15,6 @@ nav:
   - User Guide:
       - 사용 방법: 01_PyCom.md
       - 안내문서 메인: 02_user_guide.md
-      - 설치 가이드: 03_install.md
+      - 설치 가이드: 03_Markdown_guide.md
       
 
