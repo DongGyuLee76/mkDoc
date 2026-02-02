@@ -1,13 +1,17 @@
-/* ── 코드블럭 전체 박스 배경/글자색 강제 적용 ── */
-/* line-numbers 포함한 모든 코드 블럭 */
-.md-typeset .highlight pre,
-.md-typeset pre code,
-.md-typeset pre {
-  background-color: #f5f5f5 !important;  /* 원하는 박스 배경색 */
-  color: #111827 !important;             /* 원하는 기본 글자색 */
+/* ── MkDocs 기본 테마용 코드 블럭 스타일 ── */
+/* highlight 안의 pre, code 에 직접 적용 */
+.highlight pre,
+.highlight pre code {
+  background-color: #f5f5f5 !important;  /* 박스 배경색 */
+  color: #111827 !important;             /* 글자색 */
 }
 
-/* 코드 안의 토큰 색상 (필요시) */
-.md-typeset .highlight .n  { color: #111827 !important; } /* 이름/식별자 */
-.md-typeset .highlight .s  { color: #047857 !important; } /* 문자열 */
-.md-typeset .highlight .k  { color: #1d4ed8 !important; } /* 키워드 */
+/* 줄번호/여백 포함 전체 박스 */
+.highlight {
+  background-color: #f5f5f5 !important;
+}
+
+/* 코드 안의 특정 토큰 색상 (Pygments 클래스 기준, 필요시) */
+.highlight .n  { color: #111827 !important; } /* 일반 이름 */
+.highlight .s  { color: #047857 !important; } /* 문자열 */
+.highlight .k  { color: #1d4ed8 !important; } /* 키워드 */
