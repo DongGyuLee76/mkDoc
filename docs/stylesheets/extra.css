@@ -1,22 +1,13 @@
-/* 블럭 코드 박스 배경/글자색 */
+/* ── 코드블럭 전체 박스 배경/글자색 강제 적용 ── */
+/* line-numbers 포함한 모든 코드 블럭 */
+.md-typeset .highlight pre,
+.md-typeset pre code,
 .md-typeset pre {
-  background-color: #f5f5f5;
-  color: #111827;
+  background-color: #f5f5f5 !important;  /* 원하는 박스 배경색 */
+  color: #111827 !important;             /* 원하는 기본 글자색 */
 }
 
-/* pre 안의 code */
-.md-typeset pre > code {
-  background-color: #f5f5f5;
-  color: #111827;
-}
-
-/* 줄번호 있는 코드블럭(왼쪽 라인번호 영역 포함) */
-.md-typeset .highlight,
-.md-typeset .highlight table {
-  background-color: #f5f5f5;
-}
-
-/* 코드 안의 특정 토큰 색상 조정 (선택) */
-.md-typeset .highlight .n  { color: #111827; } /* 일반 이름 */
-.md-typeset .highlight .s  { color: #047857; } /* 문자열 */
-.md-typeset .highlight .k  { color: #1d4ed8; } /* 키워드 */
+/* 코드 안의 토큰 색상 (필요시) */
+.md-typeset .highlight .n  { color: #111827 !important; } /* 이름/식별자 */
+.md-typeset .highlight .s  { color: #047857 !important; } /* 문자열 */
+.md-typeset .highlight .k  { color: #1d4ed8 !important; } /* 키워드 */
