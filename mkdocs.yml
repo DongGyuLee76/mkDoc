@@ -10,7 +10,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
-      linenums: false
+      linenums: true
   - pymdownx.superfences  
 
 nav:
