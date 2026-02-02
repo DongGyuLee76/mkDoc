@@ -15,3 +15,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+      - 사용 방법: 01_PyCom.md
+      - 안내문서 메인: 02_user_guide.md
+      - 설치 가이드: 03_Markdown_guide.md
+
